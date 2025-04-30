@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #ffffff; /* Light background for the page */
+}
+
+.container {
+    box-sizing: border-box;
+    position: relative;
+    width: 575px;
+    height: 385px;
+    background: #1B244A;
+    border: 1px solid #000000;
+    margin: auto;
+}
+
+
+.home{
+    position: absolute;
+    margin: 10% 10% 10% 10%;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    color: #EEEEEE;
+}
+.guest{
+    position: absolute;
+    margin: 10% 10% 10% 60%;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    color: #EEEEEE;
+}
+
+.scoreH{
+    position: absolute;
+    margin: 20% 10% 10% ;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color: #F94F6D;
+    background: #080001;
+    border-radius: 5px;
+    width: 155px;
+    height: 120px;
+    
+}
+
+.scoreG{
+    position: absolute;
+    margin: 20% 10% 10% 60%;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color: #F94F6D;
+    background: #080001;
+    border-radius: 5px;
+    width: 155px;
+    height: 120px;
+}
+button{
+    box-sizing: border-box;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    font-family: 'Cursed Timer ULiL';
+    width: 45px;
+    height: 45px;
+    background: #1B244A;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #9AABD8;
+}
+.buttonH{
+    position: absolute;
+    margin: 45% 10% 10% 12%;
+    box-sizing: border-box;
+}
+
+.buttonG{
+    position: absolute;
+    margin: 45% 10% 10% 60%;
+}
+
+.reset{
+    margin: 55% 20% 10% 20%;
+    width: 50%;
+    padding: 10px;
+}
